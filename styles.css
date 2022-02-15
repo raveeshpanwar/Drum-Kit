@@ -46,6 +46,7 @@ background-image:url(images/crash.png);
 
 .set {
   margin: 10% auto;
+  margin-top:10px;
   
 }
 
@@ -80,5 +81,8 @@ background-image:url(images/crash.png);
   margin: 3%;
   background-color: white;
   
+}
+#title{
+  padding-top:4%;
 }
 
