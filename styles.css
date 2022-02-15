@@ -46,6 +46,7 @@ background-image:url(images/crash.png);
 
 .set {
   margin: 10% auto;
+  
 }
 
 .game-over {
@@ -76,6 +77,8 @@ background-image:url(images/crash.png);
   width: 150px;
   height: 150px;
   text-align: center;
-  margin: 10px;
+  margin: 3%;
   background-color: white;
+  
 }
+
