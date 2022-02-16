@@ -9,15 +9,27 @@ function clicko()
 {
    let a=new Audio(sounds[x]);
    a.play();
-   document.getElementsByTagName('button')[x].classList.toggle('white');
+   document.getElementsByTagName('button')[x].classList.add('pressed');
+   setTimeout(()=>{document.getElementsByTagName('button')[x].classList.remove('pressed');
+},150)
 }
 }
 
 //Audio on Pressing keys
 document.addEventListener('keydown',(event)=>{makeSound(event.key)});
-function makeSound(n){for(let i=0;i<7;i++){
-if(n==keykey[i]){
+function makeSound(n){for(let i=0;i<7;i++)
+   {
+if(n==keykey[i])
+{
    let a=new Audio(sounds[i]);
-   a.play(); document.getElementsByTagName('button')[i].classList.toggle('white');
+   a.play(); 
+   document.getElementsByTagName('button')[i].classList.add('pressed');
+   setTimeout(()=>{document.getElementsByTagName('button')[i].classList.remove('pressed');
+},100)
 }
-}}
+   
+}
+}
+
+//Animation on Pressing Keys
+
