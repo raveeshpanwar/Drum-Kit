@@ -76,7 +76,6 @@ background-image:url(images/crash.png);
   border-radius: 15px;
   display: inline-block;
   width: 150px;
-  height: 150px;
   text-align: center;
   margin: 3%;
   background-color: white;
@@ -85,4 +84,6 @@ background-image:url(images/crash.png);
 #title{
   padding-top:4%;
 }
-
+.white{
+  color:#da6404;
+}
